@@ -73,7 +73,7 @@ def parsing(id, i):
         else:
             user_id += 1
 
-#Дрочка с настройкой webfriver'а
+#Настройка webfriver'а
 options = webdriver.ChromeOptions()
 options.add_argument('log-level=3')
 binary_yandex_driver_file = 'yandexdriver.exe' # path to YandexDriver
